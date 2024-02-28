@@ -12,10 +12,16 @@ export default {
         theme: "#1098ad",
         accent: "#ffa94d",
       },
+      fontWeight: {
+        inherit: "inherit",
+      },
+      fontFamily: {
+        codystar: "Codystar",
+      },
     },
-    // fontFamily: {
-    //   codystar: "Codystar",
-    // },
+    borderRadius: {
+      100: "100px",
+    },
   },
   plugins: [],
 };
