@@ -6,7 +6,7 @@ export const StartScreen = ({ numQuestions, dispatch }) => {
         {numQuestions} questions to test your react mastery
       </h3>
       <button
-        className="btn float-right hover:scale-105 active:scale-100 disabled:hover:cursor-not-allowed"
+        className="btn float-right hover:scale-105 active:scale-100 hover:bg-darkest"
         onClick={() => dispatch({ type: "start" })}
       >
         Let's Start

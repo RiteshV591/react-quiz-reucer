@@ -4,7 +4,7 @@
 
 @layer components{
     .btn{
-      @apply transition-all block font-inherit text-inherit text-3xl border-4 border-dark bg-dark py-2 px-10 cursor-pointer rounded-100 select-none outline-none hover:bg-darkest;
+      @apply transition-all block font-inherit text-inherit text-2xl border-4 border-dark bg-dark py-2 px-10 cursor-pointer rounded-100 select-none outline-none  disabled:hover:cursor-not-allowed;
     }
     .btn-option{
       @apply w-full text-left hover:transform hover:translate-x-5;
